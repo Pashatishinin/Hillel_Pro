@@ -1,5 +1,3 @@
-from http.cookies import SimpleCookie
-
 # def parse(query: str) -> dict:
 #     return {}
 #
@@ -10,6 +8,7 @@ from http.cookies import SimpleCookie
 #     assert parse('http://example.com/') == {}
 #     assert parse('http://example.com/?') == {}
 #     assert parse('http://example.com/?name=Dima') == {'name': 'Dima'}
+from http.cookies import SimpleCookie
 
 
 def parse_cookie(query: str) -> dict:
