@@ -53,7 +53,7 @@ if __name__ == '__main__':
     assert parse_cookie('search_query=python+vs+javascript') == {'search_query': 'python+vs+javascript'}
     assert parse_cookie('ReturnUrl=%2Fru%2Fcabinet') == {'ReturnUrl': '%2Fru%2Fcabinet'}
     
-    import urllib
+import urllib
 from urllib.parse import urlparse
 
 
